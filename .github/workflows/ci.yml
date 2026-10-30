@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+jobs:
+  package:
+    uses: frida-packages/.github/.github/workflows/npm-package.yml@main
+    permissions:
+      contents: read
+      id-token: write
