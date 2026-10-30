@@ -10,12 +10,12 @@
     "email": "mail@substack.net",
     "url": "http://substack.net"
   },
-  "bugs": "https://github.com/frida/gumjs-path/issues",
+  "bugs": "https://github.com/frida-packages/gumjs-path/issues",
   "dependencies": {},
   "devDependencies": {
     "tape": "^4.9.0"
   },
-  "homepage": "https://github.com/frida/gumjs-path",
+  "homepage": "https://github.com/frida-packages/gumjs-path",
   "keywords": [
     "browser",
     "browserify",
@@ -29,7 +29,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frida/gumjs-path.git"
+    "url": "https://github.com/frida-packages/gumjs-path.git"
   },
   "scripts": {
     "test": "node test"
